@@ -1,0 +1,410 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Aditya</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link href="aassets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style type="text/css">
+
+        body
+        {
+         background-color: white
+        }
+
+        .fixed-top{
+            z-index: 1;
+        }
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+        
+        #more{
+            display: none;
+        }
+        
+        
+        #abc{
+            display: none;
+        }
+
+</style>
+
+
+<body class="w3-light-grey">
+
+
+    <nav class="navbar navbar-b navbar-trans navbar-expand-lg fixed-top" id="mainNav">
+
+        <div class="container">
+
+            <a class="navbar-brand" href="#page-top"><img src="img/logo.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">Computer Geeks</a>
+
+
+            <button class="navbar-toggler collapsed" type="button" onclick="openNav()">
+            <span class="sandwhich"></span>
+            <span class="sandwhich"></span>
+            <span class="sandwhich"></span>
+            </button>
+
+            <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
+
+                <ul class="navbar-nav">
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="https://www.geeksforgeeks.org/c-quiz-101-gq/">Pactice</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="https://www.sanfoundry.com/c-programming-questions-answers-variable-names-1/">Code Library</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="contact.html">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" data-toggle="modal" data-target="#myModal">Login</a>
+                </li>
+
+
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <div class="intro route bg-image" style="background-image: url(img/image1.png)">
+
+        <div class="intro-content display-table">
+
+            <div class="table-cell">
+
+            <div class="container">
+
+                <h1 class="intro-title mb-4">Welcome</h1>
+                <p class="intro-subtitle">
+                <span class="text-slider-items">Coders,Lets Code</span>
+                <strong class="text-slider"></strong>
+                </p>
+
+            </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div id="mySidenav" class="sidenav">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <ul class="navbar-nav">
+
+             <li class="nav-item">
+                <a class="nav-link js-scroll" href="#">Pactice</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="#">Code Library</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="#">Contact</a>
+                </li>
+
+                <li class="nav-item">
+                <a class="nav-link js-scroll" href="#">Login</a>
+                </li>
+
+
+        </ul>
+
+    </div>
+
+    <div class="clear"></div>
+
+
+<div class="w3-content" style="max-width:1400px">
+
+
+
+<div class="w3-row">
+
+<div class="w3-col l8 s12">
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="img/problem1.png" alt="Nature" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Problem 1</b></h3>
+      <h5>Aditya gupta, <span class="w3-opacity">March 16, 2019</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p><b>Find the output of the given probelm ?</b></p>
+       <span id="dots"></span>
+        <span id="more"><b>Same</b></span>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="myFunction()" id="myBtn"> <b>Answer »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-tag">0</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="w3-card-4 w3-margin w3-white">
+  <img src="img/problem2.png" alt="Norway" style="width:100%">
+    <div class="w3-container">
+      <h3><b>Problem 2</b></h3>
+      <h5>Rohit Singh Bisht, <span class="w3-opacity">Feb 14, 2019</span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>While Kim notes down the different base plans possible, Soum pulls a lever from the control room, and Kim falls into a trapped cell! Has the JSA won the battle?
+
+Unfortunately for the JSA, Kim is a genius, so he has obviously easily escaped from his cell. However, he found that his cell is only one in a large underground network of cells. Now he needs to find a way to escape!
+
+Of course, since it is a prison, some of the cells are locked at all times. However, some prison guards are lazy and left the keys for a cell in another cell. Each key can only unlock one cell and each cell can only be unlocked by one key. If any cell does not have a corresponding key, it is unlocked.
+
+The prison consists of N cells labelled 1 to N with cell 1 being Kim's starting position and cell N being the exit of the underground prison network. Furthermore, there are E bidirectional connections between cells. The i-th connection takes Kim Ci seconds to pass through, and connects cells Ai and Bi. Kim takes no time to pick up a key when he reaches a cell containing a key, and takes no time to unlock a door with a key. Cells 1 and N never have any keys in them. Additionally, no two keys will ever be found in the same cell.
+
+Can you help Kim find the minimum time it would take him to go from cell 1 to cell N?</p>
+        <span id="adots">...</span>
+        <span id="abc"><b>Input:</b>
+The first line of input contains 3 integers N, E and K denoting the number of cells, number of connections and the number of keys.
+
+The following E lines contain 3 integers, Ai, Bi and Ci showing that a connection exists between cell Ai and Bi taking Ci time to traverse.
+
+The following K lines contain 2 integers, L and U denoting that the key for cell U is located at cell L.
+
+<b>Output:</b>
+Print one number S which is the time from cell 1 to cell N. If this is not possible print -1.
+
+The answer is guaranteed to fit into a 64 bit integer.</span>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="myfunction()" id="mybtn"><b>READ MORE »</b></button></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Comments  </b> <span class="w3-badges">2</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-col l4">
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="img/top problem.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Top Rated Problem</b></h4>
+      <p> <ol type = "1">
+         <li><a href="https://discuss.codechef.com/t/problem-rebit/60871"><b>Problem-Rebit</b></a></li>
+         <li><a href="https://discuss.codechef.com/t/laddu-problem-dsa-learning/60874"><b>Laddu Problem DSA learning</b></a></li>
+         <li><a href="https://www.codechef.com/problems/POLCHAIN"><b>Polygon Chain</b></a></li>
+         <li><a href="https://www.codechef.com/problems/LALALANT"><b>The Fools who dream</b></a></li>
+      </ol></p>
+    </div>
+  </div>
+<hr>
+
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Top Used Language</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="img/c.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">C Programming</span><br>
+        <span>Begineer</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="img/c++.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">C++</span><br>
+        <span>Elementary</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="img/java.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Java</span><br>
+        <span>Intermediate</span>
+      </li>
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="img/python.png" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Python</span><br>
+        <span>Upper Intermediate</span>
+      </li>
+    </ul>
+  </div>
+  <hr>
+
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin" >
+    <div class="w3-container w3-padding">
+       <h4>Tags</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom"><a href="https://rank.sanfoundry.com/c-programming-tests/"><b>C</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/cplusplus-programming-tests/"><b>C++</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/javascript-tests/"><b>JAVASCRIPT</b></a></span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/java-programming-tests/"><b>JAVA</b></a></span> 
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://www.sanfoundry.com/1000-html-questions-answers/"><b>HTML</b></a></span> 
+<span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://www.sanfoundry.com/1000-css-questions-answers/"><b>CSS</b></a></span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/php-programming-tests/"><b>PHP</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/python-programming-tests/"><b>PYTHON</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://www.sanfoundry.com/1000-ruby-programming-questions-answers/"><b>RUBY</b></a></span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://www.sanfoundry.com/1000-data-structure-questions-answers/"><b>DATA STRUCTURE</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://www.sanfoundry.com/technical-interview-questions/"><b>LINUX</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/cyber-security-tests/"><b>CYBER SECURITY</b></a></span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/sql-server-tests/"><b>SQL</b></a></span>
+ <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"><a href="https://rank.sanfoundry.com/iot-tests/"><b>IOT</b></a></span>
+    </p>
+    </div>
+  </div>
+
+</div>
+
+</div><br>
+
+</div>
+
+<footer class="w3-container w3-padding-32 w3-margin-top" style="background-color: black">
+  <button class="btn btn-danger" style="margin:0 30px">Previous</button>
+  <button class="btn btn-danger" style="margin:0 30px">Next »</button>
+
+</footer>
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h4 class="modal-title">Login Form</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <form class="was-validated">
+  <div class="form-group">
+    <label for="uname">Username:</label>
+    <input type="email" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+    <div class="valid-feedback">Valid.</div>
+    <div class="invalid-feedback">Please fill out this field.</div>
+  </div>
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox" name="remember" required> I agree
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Check this checkbox to continue.</div>
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Login</button>
+</form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display == "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Answer";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Hide";
+    moreText.style.display = "inline";
+  }
+}
+    
+    
+    function myfunction() {
+  var dot = document.getElementById("adots");
+  var more = document.getElementById("abc");
+  var btn = document.getElementById("mybtn");
+
+  if (dots.style.display == "none") {
+    dot.style.display = "inline";
+    btn.innerHTML = "Read more";
+    more.style.display = "none";
+  } else {
+    dot.style.display = "none";
+    btn.innerHTML = "Read less";
+    more.style.display = "inline-block";
+  }
+     
+}
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+<script>
+
+
+(function() {
+  'use strict';
+  window.addEventListener('load', function()
+  {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form)
+    {
+      form.addEventListener('submit', function(event)
+      {
+        if (form.checkValidity() === false)
+        {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+<script src="js/main.js" type="application/javascript"></script>
+<script src="js/jquery.min.js" type="application/javascript"></script>
+
+
+<script src="assets/vendor/counterup/jquery.counterup.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="assets/js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
